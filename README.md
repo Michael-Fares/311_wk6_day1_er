@@ -17,6 +17,7 @@ We need to alter a setting in our cloud database in order to import the dataset 
 3. Under the "configuration" tab on the right side of your screen, select "edit configuration"
 
 4. Under "Enable auto backups" DESELECT "Enable Point-in-Time Recovery"/"*enable binary logging*"
+**I am not able to deselect this**
 
 5. Save and restart the instance
 
