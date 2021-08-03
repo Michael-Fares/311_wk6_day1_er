@@ -71,9 +71,16 @@ We are going to use a sample schema given to use by MySQL.
 
 1. What is the relationship between the "actor" and "film_actor" tables?
 
+"One and only one" actor to "one or many" films. 
+eg. One and only one unique actor can be in either one film or many different films
+
 2. What does the blue diamond next to the "last_update" column on the "inventory" table represent?
 
+The blue filled in diamond indicated that the value(TIMESTAMP) for this field (last_update) is NOT NULL. In other words, it indicates that the timestamp for when the inventory was last updated must have some value and can never be null according to the requirements of this database schema
+
 3. How many foreign keys does the "payments" table have? How can you tell?
+
+The payments table has 2 foreign keys. They are customer_id and staff_id. We can tell that these are foreign keys because they each have a single red filled diamond symbol, which indicates a NOT NULL foreign key.
 
 ##### ER Diagram upload
 
